@@ -71,7 +71,7 @@
 						let date = new Date(),
 								min = date.getMinutes(),
 								sec = date.getSeconds(),
-								hour = date.getHours();
+								hour = date.getHours() % 12;
 
 						return "" +
 								(hour < 10 ? ("0" + hour) : hour) + ":" +
