@@ -7,7 +7,6 @@
 					
 					<title>home</title>
 					<link rel="stylesheet" href="styles.css">
-						<link href="favicon.png" rel="shortcut icon" type="image/x-icon" />
 						</head>
 	
 	<style>
@@ -86,7 +85,7 @@
 		window.onload = () => {
 			let xhr = new XMLHttpRequest();
 			// Request to open weather map
-			xhr.open('GET', 'http://api.openweathermap.org/data/2.5/weather?id=5423294&units=imperial&appid=e5b292ae2f9dae5f29e11499c2d82ece');
+			xhr.open('GET', 'https://api.openweathermap.org/data/2.5/weather?id=5423294&units=imperial&appid=e5b292ae2f9dae5f29e11499c2d82ece');
 			xhr.onload = () => {
 				if (xhr.readyState === 4) {
 					if (xhr.status === 200) {
