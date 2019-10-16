@@ -1,6 +1,7 @@
+@import url('file:///Users/cole/.cache/wal/colors.css');
 
 body {
-    background-color: #5E81AC;
+    background-color: var(--color6); 
     margin: 0px;
 }
 
