@@ -12,7 +12,7 @@ body {
     width: 50%;
     height: 100vh;
     display: flex;
-    background-color: #0f0;
+    /* background-color: #0f0; */
     align-items: center;
     justify-content: center;
     flex-direction: column;
