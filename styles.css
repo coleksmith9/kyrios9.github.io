@@ -1,12 +1,15 @@
 @import url('colors.css');
 
 body {
-    background-color: var(--color4); 
+    background-color: var(--color4);
     margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .container {
-    width: 100%;
+    width: 50%;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -51,14 +54,17 @@ body {
 }
 
 .weather-container {
-    width: 43%;
+    width: 100%;
     background-color: var(--background);
-    padding: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     border-radius: 3px;
     font-family: "Roboto Mono";
     color: #fff;
     text-align: center;
+    margin: 0em .5em;
 }
+
 .inline {
     display: inline-block;
 }
@@ -67,7 +73,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 50%;
+    width: 100%;
     margin: 1em 0em;
 }
 
@@ -84,20 +90,32 @@ body {
     }
     .bookmark-container > .bookmark-set {
         width: auto;
-        margin: 1em 0em;
+        margin: 0em 0em;
     }
 }
 
-.bookmark-set{
+.bookmark-set-outside{
     padding: 1em;
     background-color: var(--background);
     border-radius: 3px;
     font-family: "Roboto Mono";
     font-size: .85rem;
-    width: 25%;
+    width: 120%;
     height: 10em;
-    margin: 0em .5em;
+    margin: 0em 0em;
 }
+
+.bookmark-set-inside{
+    padding: 1em;
+    background-color: var(--background);
+    border-radius: 3px;
+    font-family: "Roboto Mono";
+    font-size: .85rem;
+    width: 120%;
+    height: 10em;
+    margin: 0em 1em;
+}
+
 .bookmark-inner-container {
     overflow-y: scroll;
     height: 80%;
