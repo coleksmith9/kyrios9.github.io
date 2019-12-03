@@ -4,25 +4,25 @@
     --wallpaper: url("/Users/cole/Pictures/mountains.jpg");
 
     /* Special */
-    --background: #061625;
+    --background: #041829;
     --foreground: #f6dce7;
     --cursor: #f6dce7;
 
     /* Colors */
-    --color0: #061625;
-    --color1: #A897CB;
-    --color2: #B39ACE;
-    --color3: #D3A7D4;
-    --color4: #D6A9D0;
-    --color5: #EFB7DA;
+    --color0: #041829;
+    --color1: #A68FAF;
+    --color2: #C29DBE;
+    --color3: #D3A6CA;
+    --color4: #D7AAD2;
+    --color5: #F1B8DA;
     --color6: #FEC3DE;
     --color7: #f6dce7;
     --color8: #ac9aa1;
-    --color9: #A897CB;
-    --color10: #B39ACE;
-    --color11: #D3A7D4;
-    --color12: #D6A9D0;
-    --color13: #EFB7DA;
+    --color9: #A68FAF;
+    --color10: #C29DBE;
+    --color11: #D3A6CA;
+    --color12: #D7AAD2;
+    --color13: #F1B8DA;
     --color14: #FEC3DE;
     --color15: #f6dce7;
 }
