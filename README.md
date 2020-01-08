@@ -1,4 +1,3 @@
-# [Homepage](https://kyrios9.github.io)
-Homepage avaliable for use now at [kyrios9.github.io](kyrios9.github.io)
+# Startpage
 
-![homepage](https://i.redd.it/cbnzq36zj3601.gif)
+This is the startpage that I use that has some of my most frequently visited links. 
