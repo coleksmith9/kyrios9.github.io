@@ -4,25 +4,25 @@
     --wallpaper: url("/Users/cole/Pictures/ivywall.jpg");
 
     /* Special */
-    --background: #fdfefd;
-    --foreground: #08100C;
-    --cursor: #08100C;
+    --background: #08100C;
+    --foreground: #e5e8e5;
+    --cursor: #e5e8e5;
 
     /* Colors */
-    --color0: #fdfefd;
+    --color0: #08100C;
     --color1: #7E847F;
     --color2: #88A374;
     --color3: #8FC278;
     --color4: #9DA39C;
     --color5: #B9C5B6;
     --color6: #D0D3D0;
-    --color7: #08100C;
-    --color8: #949594;
+    --color7: #e5e8e5;
+    --color8: #a0a2a0;
     --color9: #7E847F;
     --color10: #88A374;
     --color11: #8FC278;
     --color12: #9DA39C;
     --color13: #B9C5B6;
     --color14: #D0D3D0;
-    --color15: #08100C;
+    --color15: #e5e8e5;
 }
