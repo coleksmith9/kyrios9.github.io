@@ -113,17 +113,17 @@
             if (event.keyCode == 32) { // Spacebar code to open search
                 document.getElementById('search').style.display = 'flex';
                 document.getElementById('search-field').focus();
-            } else if (event.keyCode == 27) { // Esc to close search
+            } else if (event.keyCode == 27 && document.getElementById('search').style.display == 'none') { // Esc to close search
                 document.getElementById('search-field').value = '';
                 document.getElementById('search-field').blur();
                 document.getElementById('search').style.display = 'none';
-            } else if (event.keyCode == 67) { // c for canvas
+            } else if (event.keyCode == 67 && document.getElementById('search').style.display == 'none') { // c for canvas
                 window.location.replace("https://canvas.mines.edu");
-            } else if (event.keyCode == 71) { // g for github
+            } else if (event.keyCode == 71 && document.getElementById('search').style.display == 'none') { // g for github
                 window.location.replace("https://github.com");
-            } else if (event.keyCode == 76) { // l for loncapa
+            } else if (event.keyCode == 76 && document.getElementById('search').style.display == 'none') { // l for loncapa
                 window.location.replace("https://loncapa.mines.edu");
-            } else if (event.keyCode == 89) { // y for youtube
+            } else if (event.keyCode == 89 && document.getElementById('search').style.display == 'none') { // y for youtube
                 window.location.replace("https://youtube.com");
             }
         });
