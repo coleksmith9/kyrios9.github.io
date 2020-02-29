@@ -108,7 +108,8 @@
                 document.getElementById("clock").innerHTML = getTime();
             }, 100);
         }
-
+        
+        document.getElementById('search').style.display = 'none';
         document.addEventListener("keydown", event => {
             if (event.keyCode == 32) { // Spacebar code to open search
                 document.getElementById('search').style.display = 'flex';
